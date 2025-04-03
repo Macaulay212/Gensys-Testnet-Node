@@ -22,8 +22,16 @@
  - WITH
  
  Python >=3.10 (for Mac, you will likely need to upgrade)
- 
- ---
+
+ ## Instructions:
+
+### Run the swarm
+
+```sh
+python3 -m venv .venv
+source .venv/bin/activate
+./run_rl_swarm.sh
+```
  ## Testnet participation
  ### Please answer 'Y' (or just press enter), N is provided as an alternative flow but isn't currently maintained.
  
